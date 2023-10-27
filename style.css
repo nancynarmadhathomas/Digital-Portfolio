@@ -1,0 +1,67 @@
+*{
+    margin: 0%;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+}
+body{
+    background-color:aliceblue;
+}
+.header{
+    background-color:#323436;
+}
+.header-container{
+    display: block;
+    width: 200px; /* Set the width of the circle */
+    height: 200px; /* Set the height of the circle */
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden; /* Hide any part of the image that exceeds the circle's dimensions */
+    border-radius: 50%; /* Create a circle */
+    align-items: center;
+}
+.header-container img{
+    width: 100%;/*Adjust the width as needed*/
+    height: auto;/*Maintain the aspecct ratio*/
+    margin-left: auto;/*Maintain the aspect ratio*/
+    margin-left: auto;/*Maintain the aspect ratio*/
+    align-items: center;
+}
+.header-content h1{
+    font-size: 2.5rem;
+    font-family: 'Times New Roman', Times, serif;
+    color: #333;
+    text-align: center;
+    padding: 1rem;
+}
+.header-content h2{
+    font-size: 2rem;
+    font-family: 'Times New Roman', Times, serif;
+    color:#333;
+    text-align: center;
+    padding: 1rem;
+}
+nav ul{
+    list list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+nav ul li{
+    display: inline;
+    margin-right: 10px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #333;
+}
+nav ul li a:hover{
+    color: #4682b4;
+}
+main{
+    background-color: antiquewhite;
+    padding: 30px;
+}
+section{
+    background-color: bisque;
+    margin-bottom: 50px;
+}
